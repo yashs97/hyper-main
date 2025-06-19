@@ -1,0 +1,2062 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Document</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css" integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jsvectormap/dist/css/jsvectormap.min.css" />
+
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- HTMl code starts here -->
+
+    <div class="container-fluid">
+      <aside class="left-sidebar">
+        <img src="./images/logo.png" alt="" />
+
+        <h6 class="sidebar-heading">NAVIGATION</h6>
+
+        <ul class="left-sidebar-content ps-0">
+          <!-- Accordion starts -->
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  <li class="text-side-arrow">
+                    <div class="icon-text-gap">
+                      <i class="fa-solid fa-house"></i>
+                      <span>Dashboards</span>
+                    </div>
+                    <span class="badge five">5</span>
+                  </li>
+                </button>
+              </h2>
+              <div
+                id="collapseOne"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <ul>
+                    <li>Analytics</li>
+                    <li>Ecommerce</li>
+                    <li>Projects</li>
+                    <li>CRM</li>
+                    <li>E-Wallet</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+        <h6 class="sidebar-heading">APPS</h6>
+
+         <li class="icon-text-gap">
+            <i class="fa-solid fa-calendar"></i>
+            <span>Calendar</span>
+          </li>
+
+          <li class="icon-text-gap">
+            <i class="fa-regular fa-comments"></i>
+            <span>Chat</span>
+          </li>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo"
+                >
+                  <li class="text-side-arrow">
+                    <div class="icon-text-gap">
+                      <i class="fa-solid fa-gauge-simple-high"></i>
+                      <span>CRM</span>
+                    </div>
+                    <span class="badge new">New</span>
+                  </li>
+                </button>
+              </h2>
+              <div
+                id="collapseTwo"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <ul>
+                    <li>Projects</li>
+                    <li>Orders List</li>
+                    <li>Clients</li>
+                    <li>Management</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree"
+                  aria-expanded="false"
+                  aria-controls="collapseThree"
+                >
+                  <li class="text-side-arrow commerce" onclick="">
+                    <div class="icon-text-gap">
+                      <i class="fa-solid fa-shop"></i>
+                      <span>Ecommerce</span>
+                    </div>
+                    <i class="fa-solid fa-angle-right arrow-right"></i>
+                  </li>
+                </button>
+              </h2>
+              <div
+                id="collapseThree"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <ul>
+                    <li>Products</li>
+                    <li>Product Details</li>
+                    <li>Orders</li>
+                    <li>Order Details</li>
+                    <li>Customers</li>
+                    <li>Shopping Cart</li>
+                    <li>Checkout</li>
+                    <li>Sellers</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseFour"
+                  aria-expanded="false"
+                  aria-controls="collapseFour"
+                >
+                  <li class="text-side-arrow">
+                    <div class="icon-text-gap">
+                      <i class="fa-regular fa-envelope"></i>
+                      <span>Email</span>
+                    </div>
+                    <i class="fa-solid fa-angle-right"></i>
+                  </li>
+                </button>
+              </h2>
+              <div
+                id="collapseFour"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <ul>
+                    <li>Inbox</li>
+                    <li>Read Email</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseFive"
+                  aria-expanded="false"
+                  aria-controls="collapseFive"
+                >
+                  <li class="text-side-arrow">
+                    <div class="icon-text-gap">
+                      <i class="fa-solid fa-briefcase"></i>
+                      <span>Projects</span>
+                    </div>
+                    <i class="fa-solid fa-angle-right"></i>
+                  </li>
+                </button>
+              </h2>
+              <div
+                id="collapseFive"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <ul>
+                    <li>List</li>
+                    <li>Details</li>
+                    <li>Gantt</li>
+                    <li>Create Project</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <li class="icon-text-gap">
+            <i class="fa-solid fa-wifi"></i>
+            <span>Social Feed</span>
+          </li>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseSix"
+                  aria-expanded="false"
+                  aria-controls="collapseSix"
+                >
+                  <li class="text-side-arrow">
+                    <div class="icon-text-gap">
+                      <i class="fa-solid fa-list-check"></i>
+                      <span>Tasks</span>
+                    </div>
+                    <i class="fa-solid fa-angle-right"></i>
+                  </li>
+                </button>
+              </h2>
+              <div
+                id="collapseSix"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <ul>
+                    <li>List</li>
+                    <li>Details</li>
+                    <li>Kanban Board</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+             <li class="icon-text-gap">
+            <i class="fa-regular fa-folder"></i>
+            <span>File Manager</span>
+          </li>
+
+          <h6 class="sidebar-heading">CUSTOM</h6>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseSeven"
+                  aria-expanded="false"
+                  aria-controls="collapseSeven"
+                >
+                  <li class="text-side-arrow">
+                    <div class="icon-text-gap">
+                      <i class="fa-regular fa-file"></i>
+                      <span>Pages</span>
+                    </div>
+                    <i class="fa-solid fa-angle-right"></i>
+                  </li>
+                </button>
+              </h2>
+              <div
+                id="collapseSeven"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <ul>
+                    <li>Profile</li>
+                    <li>Profile 2</li>
+                    <li>Orders</li>
+                    <li>Invoice</li>
+                    <li>FAQ</li>
+                    <li>Pricing</li>
+                    <li>Maintenance</li>
+                    <li>Authentication</li>
+                    <li>Error</li>
+                    <li>Starter Page</li>
+                    <li>With Preloader</li>
+                    <li>Timeline</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+             <li class="text-side-arrow">
+            <div class="icon-text-gap">
+              <i class="fa-solid fa-globe"></i>
+              <span>Landing</span>
+            </div>
+            <span class="badge new-sec">New</span>
+          </li>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseNine"
+                  aria-expanded="false"
+                  aria-controls="collapseNine"
+                >
+                  <li class="text-side-arrow">
+                    <div class="icon-text-gap">
+                      <i class="fa-regular fa-window-maximize"></i>
+                      <span>Layouts</span>
+                    </div>
+                    <i class="fa-solid fa-angle-right"></i>
+                  </li>
+                </button>
+              </h2>
+              <div
+                id="collapseNine"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <ul>
+                    <li>Horizontal</li>
+                    <li>Detached</li>
+                    <li>Full View</li>
+                    <li>Fullscreen View</li>
+                    <li>Hover Menu</li>
+                    <li>Compact</li>
+                    <li>Icon View</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <h6 class="sidebar-heading">COMPONENTS</h6>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTen"
+                  aria-expanded="false"
+                  aria-controls="collapseTen"
+                >
+                  <li class="text-side-arrow">
+                    <div class="icon-text-gap">
+                      <i class="fa-solid fa-cube"></i>
+                      <span>Base UI</span>
+                    </div>
+                    <i class="fa-solid fa-angle-right"></i>
+                  </li>
+                </button>
+              </h2>
+              <div
+                id="collapseTen"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <ul>
+                    <li>Accordions & Collapse</li>
+                    <li>Alerts</li>
+                    <li>Avatars</li>
+                    <li>Badges</li>
+                    <li>Breadcrumb</li>
+                    <li>Buttons</li>
+                    <li>Cards</li>
+                    <li>Carousel</li>
+                    <li>Dropdowns</li>
+                    <li>Embed Video</li>
+                    <li>Grid</li>
+                    <li>List Group</li>
+                    <li>Modals</li>
+                    <li>Notifications</li>
+                    <li>Offcanvas</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseEleven"
+                  aria-expanded="false"
+                  aria-controls="collapseEleven"
+                >
+                  <li class="text-side-arrow">
+                    <div class="icon-text-gap">
+                    <i class="fa-solid fa-weight-scale"></i>
+                    <span>Extended UI</span>
+                    </div>
+                    <i class="fa-solid fa-angle-right"></i>
+                </li>
+                </button>
+              </h2>
+              <div
+                id="collapseEleven"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <ul>
+                    <li>Dragula</li>
+                    <li>Range Slider</li>
+                    <li>Orders</li>
+                    <li>Ratings</li>
+                    <li>Scroll Bar</li>
+                    <li>Scroll Spy</li>
+                    <li>Treevies</li>
+                    
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <li class="icon-text-gap">
+            <i class="fa-solid fa-layer-group"></i>
+            <span>Widgets</span>
+          </li>
+
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwelve"
+                  aria-expanded="false"
+                  aria-controls="collapseTwelve"
+                >
+                  <li class="text-side-arrow">
+            <div class="icon-text-gap">
+              <i class="fa-solid fa-gear"></i>
+              <span>Icons</span>
+            </div>
+            <i class="fa-solid fa-angle-right"></i>
+          </li>
+                </button>
+              </h2>
+              <div
+                id="collapseTwelve"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <ul>
+                    <li>Remix Icons</li>
+                    <li>Material Design</li>
+                    <li>Unicorns</li>
+                    <li>Lucide</li>
+                    
+                    
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseThirteen"
+                  aria-expanded="false"
+                  aria-controls="collapseThirteen"
+                >
+                   <li class="text-side-arrow">
+            <div class="icon-text-gap">
+              <i class="fa-solid fa-chart-simple"></i>
+              <span>Charts</span>
+            </div>
+            <i class="fa-solid fa-angle-right"></i>
+          </li>
+                </button>
+              </h2>
+              <div
+                id="collapseThirteen"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <ul>
+                    <li>Apex Charts</li>
+                    <li>ChartJS</li>
+                    <li>Sparkliness</li>
+                    <li>Britecharts</li>
+                    
+                    
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseFourteen"
+                  aria-expanded="false"
+                  aria-controls="collapseFourteen"
+                >
+                  <li class="text-side-arrow">
+            <div class="icon-text-gap">
+              <i class="fa-brands fa-wpforms"></i>
+              <span>Forms</span>
+            </div>
+            <i class="fa-solid fa-angle-right"></i>
+          </li>
+                </button>
+              </h2>
+              <div
+                id="collapseFourteen"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <ul>
+                    <li>Basic Elements</li>
+                    <li>Form Advanced</li>
+                    <li>Validation</li>
+                    <li>Wizard</li>
+                    <li>File Uploads</li>
+                    <li>Editors</li>
+                    
+                    
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseFifteen"
+                  aria-expanded="false"
+                  aria-controls="collapseFifteen"
+                >
+                 <li class="text-side-arrow">
+            <div class="icon-text-gap">
+              <i class="fa-solid fa-table"></i>
+              <span>Tables</span>
+            </div>
+            <i class="fa-solid fa-angle-right"></i>
+          </li>
+                </button>
+              </h2>
+              <div
+                id="collapseFifteen"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <ul>
+                    <li>Basic Tables</li>
+                    <li>Data Tables</li>
+                   
+                    
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseSixteen"
+                  aria-expanded="false"
+                  aria-controls="collapseSixteen"
+                >
+                  <li class="text-side-arrow">
+            <div class="icon-text-gap">
+              <i class="fa-solid fa-location-dot"></i>
+              <span>Maps</span>
+            </div>
+            <i class="fa-solid fa-angle-right"></i>
+          </li>
+                </button>
+              </h2>
+              <div
+                id="collapseSixteen"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <ul>
+                    <li>Google Maps</li>
+                    <li>Vector Maps</li>
+                    
+                    
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseSeventeen"
+                  aria-expanded="false"
+                  aria-controls="collapseSeventeen"
+                >
+                   <li class="text-side-arrow">
+            <div class="icon-text-gap">
+              <i class="fa-regular fa-folder"></i>
+              <span>Multi Level</span>
+            </div>
+            <i class="fa-solid fa-angle-right"></i>
+          </li>
+                </button>
+              </h2>
+              <div
+                id="collapseSeventeen"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <ul>
+                    <li>Second Level</li>
+                    <li>Third Level</li>
+                    
+                    
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Accordion ends -->
+
+        </ul>
+
+      </aside>
+
+          <!-- Sidebar on ham toggle starts-->
+          <div class="">
+
+            <ul class="sidebar-toggle ps-0">
+
+              <li class="py-4">
+                <img src="./images/logo-sm.png" alt="">
+              </li>
+
+              <li class="sidebar-relative">
+
+                <i class="fa-solid fa-house"></i>
+
+                <div class="sidebar-absolute">
+                  <!-- Should open on hover -->
+                  <ul>
+                    <li>Dashboards</li>
+                    <li>Analytics</li>
+                    <li>Ecommerce</li>
+                    <li>Projects</li>
+                    <li>CRM</li>
+                    <li>E-Wallet</li>
+                  </ul>
+
+              </div>
+
+
+              </li>
+
+              
+
+
+
+              <li class="sidebar-relative">
+
+                <i class="fa-solid fa-calendar"></i>
+
+                <div class="sidebar-absolute">
+                  <!-- Should open on hover -->
+                  <ul>
+                    <li>Calendar</li>
+                   
+                  </ul>
+
+                </div>
+
+              </li>
+
+              <li class="sidebar-relative">
+
+                <i class="fa-regular fa-comments"></i>
+
+                <div class="sidebar-absolute">
+                  <!-- Should open on hover -->
+                  <ul>
+                    <li>Chat</li>
+                   
+                  </ul>
+
+                </div>
+
+              </li>
+
+
+              <li class="sidebar-relative">
+
+                <i class="fa-solid fa-gauge-simple-high"></i>
+
+                <div class="sidebar-absolute">
+                  <!-- Should open on hover -->
+                  <ul>
+                    <li>CRM</li>
+                    <li>Projects</li>
+                    <li>Order List</li>
+                    <li>Clients</li>
+                    <li>CRM</li>
+                    <li>Management</li>
+                  </ul>
+
+                </div>
+
+              </li>
+
+
+              <li class="sidebar-relative">
+
+                <i class="fa-solid fa-shop"></i>
+
+                <div class="sidebar-absolute">
+                  <!-- Should open on hover -->
+                  <ul>
+                    <li>Products</li>
+                    <li>Product Details</li>
+                    <li>Orders</li>
+                    <li>Order Details</li>
+                    <li>Customers</li>
+                    <li>Shopping Cart</li>
+                    <li>Checkout</li>
+                    <li>Sellers</li>
+                  </ul>
+
+                </div>
+
+              </li>
+
+
+              <li class="sidebar-relative">
+
+                <i class="fa-regular fa-envelope"></i>
+
+                <div class="sidebar-absolute">
+                  <!-- Should open on hover -->
+                  <ul>
+                    <li>Email</li>
+                    <li>Inbox</li>
+                    <li>Read Email</li>
+                   
+                  </ul>
+
+                </div>
+
+              </li>
+
+
+              <li class="sidebar-relative">
+
+                <i class="fa-solid fa-briefcase"></i>
+
+                <div class="sidebar-absolute">
+                  <!-- Should open on hover -->
+                  <ul>
+                    <li>Project</li>
+                    <li>List</li>
+                    <li>Details</li>
+                    <li>Gantt</li>
+                    <li>Create Project</li>
+                    
+                  </ul>
+
+                </div>
+
+              </li>
+
+
+              <li class="sidebar-relative">
+
+                <i class="fa-solid fa-wifi"></i>
+
+                <div class="sidebar-absolute">
+                  <!-- Should open on hover -->
+                  <ul>
+                    <li>Social Feed</li>
+                
+                  </ul>
+
+                </div>
+
+              </li>
+
+
+              <li class="sidebar-relative">
+
+                <i class="fa-solid fa-list-check"></i>
+
+                <div class="sidebar-absolute">
+                  <!-- Should open on hover -->
+                  <ul>
+                    <li>Tasks</li>
+                    <li>List</li>
+                    <li>Details</li>
+                    <li>Kanban Board</li>
+                    
+                  </ul>
+
+                </div>
+
+              </li>
+
+
+              <li class="sidebar-relative">
+
+                <i class="fa-regular fa-folder"></i>
+
+                <div class="sidebar-absolute">
+                  <!-- Should open on hover -->
+                  <ul>
+                    <li>File Manager</li>
+                    
+                  </ul>
+
+                </div>
+
+              </li>
+
+
+              <li class="sidebar-relative">
+
+                <i class="fa-regular fa-file"></i>
+
+                <div class="sidebar-absolute">
+                  <!-- Should open on hover -->
+                  <ul>
+                     <li>Profile</li>
+                    <li>Profile 2</li>
+                    <li>Orders</li>
+                    <li>Invoice</li>
+                    <li>FAQ</li>
+                    <li>Pricing</li>
+                    <li>Maintenance</li>
+                    <li>Authentication</li>
+                    <li>Error</li>
+                    <li>Starter Page</li>
+                    <li>With Preloader</li>
+                    <li>Timeline</li>
+                  </ul>
+
+                </div>
+
+              </li>
+
+
+              <li class="sidebar-relative">
+
+                <i class="fa-solid fa-globe"></i>
+
+                <div class="sidebar-absolute">
+                  <!-- Should open on hover -->
+                  <ul>
+                    <li>Landing</li>
+                    
+                  </ul>
+
+                </div>
+
+              </li>
+
+
+              <li class="sidebar-relative">
+
+                <i class="fa-regular fa-window-maximize"></i>
+
+                <div class="sidebar-absolute">
+                  <!-- Should open on hover -->
+                  <ul>
+                    <li>Horizontal</li>
+                    <li>Detached</li>
+                    <li>Full View</li>
+                    <li>Fullscreen View</li>
+                    <li>Hover Menu</li>
+                    <li>Compact</li>
+                    <li>Icon View</li>
+                  </ul>
+
+                </div>
+
+              </li>
+
+
+              <li class="sidebar-relative">
+
+                <i class="fa-solid fa-cube"></i>
+
+                <div class="sidebar-absolute">
+                  <!-- Should open on hover -->
+                  <ul>
+                    <li>Accordions & Collapse</li>
+                    <li>Alerts</li>
+                    <li>Avatars</li>
+                    <li>Badges</li>
+                    <li>Breadcrumb</li>
+                    <li>Buttons</li>
+                    <li>Cards</li>
+                    <li>Carousel</li>
+                    <li>Dropdowns</li>
+                    <li>Embed Video</li>
+                    <li>Grid</li>
+                    <li>List Group</li>
+                    <li>Modals</li>
+                    <li>Notifications</li>
+                    <li>Offcanvas</li>
+                  </ul>
+
+                </div>
+
+              </li class="sidebar-relative">
+
+              <li>
+
+                <i class="fa-solid fa-weight-scale"></i>
+
+                <div class="sidebar-absolute">
+                  <!-- Should open on hover -->
+                  <ul>
+                    <li>Dragula</li>
+                    <li>Range Slider</li>
+                    <li>Orders</li>
+                    <li>Ratings</li>
+                    <li>Scroll Bar</li>
+                    <li>Scroll Spy</li>
+                    <li>Treevies</li>
+                  </ul>
+
+                </div>
+
+              </li>
+
+              <li class="sidebar-relative">
+
+                <i class="fa-solid fa-layer-group"></i>
+
+                <div class="sidebar-absolute">
+                  <!-- Should open on hover -->
+                  <ul>
+                    <li>Widgets</li>
+                    
+                  </ul>
+
+                </div>
+
+              </li>
+
+               <li class="sidebar-relative">
+
+                <i class="fa-solid fa-gear"></i>
+
+                <div class="sidebar-absolute">
+                  <!-- Should open on hover -->
+                  <ul>
+                     <li>Remix Icons</li>
+                    <li>Material Design</li>
+                    <li>Unicorns</li>
+                    <li>Lucide</li>
+                  </ul>
+
+                </div>
+
+              </li>
+
+               <li class="sidebar-relative">
+
+                <i class="fa-solid fa-chart-simple"></i>
+
+                <div class="sidebar-absolute">
+                  <!-- Should open on hover -->
+                  <ul>
+                   <li>Apex Charts</li>
+                    <li>ChartJS</li>
+                    <li>Sparkliness</li>
+                    <li>Britecharts</li>
+                  </ul>
+
+                </div>
+
+              </li>
+
+               <li class="sidebar-relative">
+
+                <i class="fa-brands fa-wpforms"></i>
+
+                <div class="sidebar-absolute">
+                  <!-- Should open on hover -->
+                  <ul>
+                   <li>Basic Elements</li>
+                    <li>Form Advanced</li>
+                    <li>Validation</li>
+                    <li>Wizard</li>
+                    <li>File Uploads</li>
+                    <li>Editors</li>
+                  </ul>
+
+                </div>
+
+              </li>
+
+               <li class="sidebar-relative">
+
+                <i class="fa-solid fa-table"></i>
+
+                <div class="sidebar-absolute">
+                  <!-- Should open on hover -->
+                  <ul>
+                    <li>Basic Tables</li>
+                    <li>Data Tables</li>
+                  </ul>
+
+                </div>
+
+              </li>
+
+               <li class="sidebar-relative">
+
+                <i class="fa-solid fa-location-dot"></i>
+
+                <div class="sidebar-absolute">
+                  <!-- Should open on hover -->
+                  <ul>
+                    <li>Google Maps</li>
+                    <li>Vector Maps</li>
+                  </ul>
+
+                </div>
+
+              </li>
+
+
+              <li class="sidebar-relative">
+
+                <i class="fa-regular fa-folder"></i>
+
+                <div class="sidebar-absolute">
+                  <!-- Should open on hover -->
+                  <ul>
+                    <li>Multi Level</li>
+                    <li>Second Level</li>
+                    <li>Third Level</li>
+                  </ul>
+
+                </div>
+
+              </li>
+
+
+            </ul>
+
+          </div>
+          <!-- Sidebar on ham toggle ends -->
+
+
+      <!--Main right side content  -->
+      <main class="main-content container-fluid">
+
+        <nav class="navigation-bar left-margin d-flex align-items-center justify-content-between">
+
+            <div class="d-flex align-items-center gap-4 py-3">
+
+                <i class="fa-solid fa-bars" id="ham-icon"></i>
+                <form action="#" class="search-btn-rel">
+                    <i class="fa-solid fa-magnifying-glass search-btn-abs "></i>
+                    <input type="text" placeholder="Search..." class="text-area">
+                    <button class="btn rounded-0">Search</button>
+                </form>
+
+            </div>
+
+            <div class="d-flex gap-4 icon-effects">
+
+                <div class="country-nav d-flex align-items-center gap-2">
+                    <img src="./images/us.jpg" alt="">
+                    <span>English</span>
+                    <i class="fa-solid fa-angle-down"></i>
+                </div>
+
+                <!-- Select a language -->
+                <div class="languages d-flex gap-2 align-items-center flex-column ps-4 py-2 card" id="langs">
+
+                  <div class="d-flex align-items-center gap-2 w-100">
+                    <img src="./images/germany.jpg" alt="">
+                    <span>Germany</span>
+                  </div>
+
+                  <div class="d-flex align-items-center gap-2 w-100">
+                    <img src="./images/italy.jpg" alt="">
+                    <span>Italian</span>
+                  </div>
+
+                  <div class="d-flex align-items-center gap-2 w-100">
+                    <img src="./images/spain.jpg" alt="">
+                    <span>Spanish</span>
+                  </div>
+
+                  <div class="d-flex align-items-center gap-2 w-100">
+                    <img src="./images/russia.jpg" alt="">
+                    <span class="float-end">Russian</span>
+                  </div>
+
+                </div>
+                <!-- Language section ends -->
+
+                <div class="d-flex align-items-center pe-3 gap-4 nav-content">
+
+                    <i class="fa-solid fa-bell position-relative notification-bell">
+                        <span class="position-absolute top-0 start-100 translate-middle p-1 bg-danger border border-light rounded-circle">
+                            <span class="visually-hidden">New alerts</span>
+                        </span>
+                    </i>
+
+                    <!-- Notifications start -->
+                      <div class="notification card p-3 pb-0" id="notif">
+
+                        
+                        <div class="d-flex w-100 justify-content-between align-items-center pb-3 border-bottom mb-2 notification-clear">
+                          <h6 class="mb-0">Notification</h6>
+                          <span class="text-decoration-underline clear-all">Clear All</span>
+                        </div>
+
+                        <div class="scroll">
+
+                          <div class="today">
+                            <span>Today</span>
+                          </div>
+
+                          <div class="notification-card-small p-3">
+
+                            <div class="d-flex align-items-center gap-3">
+
+                              <div class="notification-icons">
+                                <i class="fa-regular fa-comment"></i>
+                              </div>
+
+                              <div>
+
+                                <div class="d-flex align-items-center gap-2">
+                                  <h5>Datacorp</h5>
+                                  <small>1 min ago</small>
+                                </div>
+
+                                <div class="d-flex">
+                                  <small>Caleb Flakelar commented on Admin</small>
+                                </div>
+
+                              </div>
+
+                              <div class="cancel">
+                                <i class="fa-solid fa-xmark"></i>
+                              </div>
+
+                            </div>
+
+                          </div>
+
+
+                          <div class="notification-card-small mt-3 mb-2 p-3 bg-transparent border">
+
+                            <div class="d-flex align-items-center gap-3">
+
+                              <div class="notification-icons green-icon">
+                                <i class="fa-solid fa-user-plus"></i>
+                              </div>
+
+                              <div>
+
+                                <div class="d-flex align-items-center gap-2">
+                                  <h5>Admin</h5>
+                                  <small>1 hour ago</small>
+                                </div>
+
+                                <div class="d-flex">
+                                  <small>New user registered</small>
+                                </div>
+
+                              </div>
+
+                              <div class="cancel">
+                                <i class="fa-solid fa-xmark"></i>
+                              </div>
+
+                            </div>
+
+                          </div>
+
+                          <div class="today">
+                            <span>Yesterday</span>
+                          </div>
+
+                          <div class="notification-card-small mb-2 p-3 bg-transparent border">
+
+                            <div class="d-flex align-items-center gap-3">
+
+                              <div class="avatar">
+                                <img src="./images/cristina.jpg" alt="">
+                              </div>
+
+                              <div>
+
+                                <div class="d-flex align-items-center gap-2">
+                                  <h5>Cristina Pride</h5>
+                                  <small>1 day ago</small>
+                                </div>
+
+                                <div class="d-flex">
+                                  <small>Hi, How are you? What about our...</small>
+                                </div>
+
+                              </div>
+
+                              <div class="cancel">
+                                <i class="fa-solid fa-xmark"></i>
+                              </div>
+
+                            </div>
+
+                          </div>
+
+                        
+
+                        <div class="today">
+                          <span>30 Dec 2021</span>
+                        </div>
+
+                        <div class="notification-card-small mb-2 p-3 bg-transparent border">
+
+                          <div class="d-flex align-items-center gap-3">
+
+                            <div class="notification-icons">
+                              <i class="fa-regular fa-comment"></i>
+                            </div>
+
+                            <div>
+
+                              <div class="d-flex align-items-center gap-2">
+                                <h5>Datacorp</h5>
+                                
+                              </div>
+
+                              <div class="d-flex">
+                                <small>Caleb Flakelar commented on Admin</small>
+                              </div>
+
+                            </div>
+
+                            <div class="cancel">
+                              <i class="fa-solid fa-xmark"></i>
+                            </div>
+
+                          </div>
+
+                        </div>
+
+                        <div class="notification-card-small mb-2 p-3 bg-transparent border">
+
+                          <div class="d-flex align-items-center gap-3">
+
+                            <div class="avatar">
+                                <img src="./images/karen.jpg" alt="">
+                              </div>
+
+                            <div>
+
+                              <div class="d-flex align-items-center gap-2">
+                                <h5>Karen Robinson</h5>
+                               
+                              </div>
+
+                              <div class="d-flex">
+                                <small>Wow! this admin looks good an...</small>
+                              </div>
+
+                            </div>
+
+                            <div class="cancel">
+                              <i class="fa-solid fa-xmark"></i>
+                            </div>
+
+                          </div>
+
+                          </div>
+                        </div>
+
+                        <div class="view-all border-top">
+                          <span>View All</span>
+                        </div>
+
+                      </div>
+
+                    <!-- Notifications end -->
+
+                    <!-- Social icons start -->
+                    <i class="fa-solid fa-grip social-icons-btn"></i>
+
+                    <div class="social-icons-top card p-3" id="social-icons">
+
+                      <div class="row pb-4">
+
+                        <div class="col d-flex flex-column align-items-center">
+                          <img src="./images/slack.png" alt="">
+                          <span>Slack</span>
+                        </div>
+
+                        <div class="col d-flex flex-column align-items-center">
+                          <img src="./images/github.png" alt="">
+                          <span>GitHub</span>
+                        </div>
+
+                        <div class="col d-flex flex-column align-items-center">
+                          <img src="./images/dribbble.png" alt="">
+                          <span>Dribble</span>
+                        </div>
+
+
+                      </div>
+
+                      <div class="row">
+
+                        <div class="col d-flex flex-column align-items-center">
+                          <img src="./images/bitbucket.png" alt="">
+                          <span>Slack</span>
+                        </div>
+
+                        <div class="col d-flex flex-column align-items-center">
+                          <img src="./images/dropbox.png" alt="">
+                          <span>GitHub</span>
+                        </div>
+
+                        <div class="col d-flex flex-column align-items-center">
+                          <img src="./images/g-suite.png" alt="">
+                          <span>Dribble</span>
+                        </div>
+
+                      </div>
+
+                    </div>
+
+                    <!-- Social icons start -->
+
+                    <i class="fa-solid fa-gear"></i>
+
+                    <i class="fa-solid fa-moon"></i>
+
+                    <i class="fa-solid fa-expand"></i>
+
+                    <div class="user d-flex gap-2 align-items-center">
+
+                        <img src="./images/avatar-1.jpg" alt="">
+
+                        <div class="pe-2">
+                            <h5 class="fw-bold mb-0">Dominic Keller</h5>
+                            <span>Founder</span>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </nav>
+
+      </main>
+
+      <!-- Second section -->
+      <div class="nav-two left-margin d-flex align-items-center justify-content-between py-3">
+
+          <div>
+            <h4>Dashboard</h4>
+          </div>
+
+          <div class="d-flex">
+
+            <form action="#">
+              <input type="date" class="date-input">
+            </form>
+
+            <div class="d-flex gap-2 pe-3">
+              <i class="fa-solid fa-calendar-days"></i>
+              <i class="fa-solid fa-arrows-rotate"></i>
+              <i class="fa-solid fa-chart-simple"></i>
+            </div>
+
+          </div>
+
+      </div>
+
+      <!-- Third section -->
+      <div class="third-section left-margin">
+
+        <div class="row gap-3">
+
+          <div class="col-5 ">
+
+            <div class="row gap-3 mb-3">
+
+              <div class="col cards p-3">
+
+                <div class="d-flex justify-content-between customers">
+                  <h5>Customers</h5>
+                  <i class="fa-solid fa-users"></i>
+                </div>
+
+                <h3 class="mt-1 mb-4">36,254</h3>
+
+                <span class="d-flex gap-3 numbers">
+                  <div class="green-color">
+                    <i class="fa-solid fa-arrow-up"></i>
+                    <span>5.27%</span>
+                  </div>
+
+                  <span class="duration">Since last month</span>
+                </span>
+
+              </div>
+
+              <div class="col cards p-3">
+
+                
+
+                <div class="d-flex justify-content-between customers">
+                  <h5>Orders</h5>
+                  <i class="fa-solid fa-cart-plus"></i>
+                </div>
+
+                <h3 class="mt-1 mb-4">5,543</h3>
+
+                <span class="d-flex gap-3 numbers">
+                  <div class="red-color">
+                    <i class="fa-solid fa-arrow-down"></i>
+                    <span>1.08%</span>
+                  </div>
+
+                  <span class="duration">Since last month</span>
+                </span>
+
+
+              </div>
+
+            </div>
+
+
+            <div class="row gap-3">
+
+              <div class="col cards p-3">
+
+                
+                <div class="d-flex justify-content-between customers">
+                  <h5>Revenue</h5>
+                  <i class="fa-solid fa-dollar-sign"></i>
+                </div>
+
+                <h3 class="mt-1 mb-4">$6,254</h3>
+
+                <span class="d-flex gap-3 numbers">
+                  <div class="red-color">
+                    <i class="fa-solid fa-arrow-down"></i>
+                    <span>7.00%</span>
+                  </div>
+
+                  <span class="duration">Since last month</span>
+                </span>
+
+
+              </div>
+
+              <div class="col cards p-3">
+
+                
+
+                <div class="d-flex justify-content-between customers">
+                  <h5>Growth</h5>
+                  <i class="fa-solid fa-wave-square"></i>
+                </div>
+
+                <h3 class="mt-1 mb-4">+30.56%</h3>
+
+                <span class="d-flex gap-3 numbers">
+                  <div class="green-color">
+                    <i class="fa-solid fa-arrow-up"></i>
+                    <span>4.87%</span>
+                  </div>
+
+                  <span class="duration">Since last month</span>
+                </span>
+
+
+              </div>
+
+            </div>
+
+          </div>
+
+
+          <div class="graph-chart me-4 col card">
+
+            <div>
+
+              <div class="d-flex justify-content-between align-items-center">
+                <h4>Projections Vs Actuals</h4>
+                <i class="fa-solid fa-ellipsis-vertical vertical-bars"></i>
+              </div>
+
+              <div id="chart">
+                <!-- Chart 1 -->
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+      </div>
+
+
+      <div class="fourth-section left-margin my-4">
+
+        <div class="row gap-4">
+
+          <div class="col-7 cards text-relative">
+
+            <div class=" p-3 d-flex justify-content-between align-items-center">
+              <h4 class="mb-0">Revenue</h4>
+              <i class="fa-solid fa-ellipsis-vertical vertical-bars"></i>
+            </div>
+
+            <div class="row current-week">
+
+              <div class="col p-3 d-flex flex-column align-items-center">
+                <p class="mb-0">Current Week</p>
+                <span class="current">$58,254</span>
+              </div>
+
+              <div class="col p-3 d-flex flex-column align-items-center">
+                <p class="mb-0">Previous Week</p>
+                <span class="previous">$69,524</span>
+              </div>
+
+            </div>
+
+            <div class="chart-text">
+
+              <h5>Today's Earning: $2,562.30</h5>
+              <p> Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus...</p>
+              <button class="btn d-flex align-items-center gap-3">View Statements <i class="fa-solid fa-arrow-right"></i></button>
+
+            </div>
+
+            <div id="chart-two">
+              <!-- Chart two -->
+            </div>
+
+          </div>
+
+
+          <div class="col second-card cards p-2">
+
+            <div class=" p-3 d-flex justify-content-between align-items-center">
+              <h4 class="ps-0">Revenue By Location</h4>
+              <i class="fa-solid fa-ellipsis-vertical vertical-bars"></i>
+            </div>
+
+            <div>
+
+              <!-- Map -->
+              <div id="map" style="width: 600px; height: 350px"></div>
+              
+             <!-- Progress bar -->
+
+              <div class="progressBar d-flex flex-column"> 
+
+                
+                <h5>New York</h5>
+
+                <div class="d-flex align-items-center gap-3">
+                  
+                  <div class="progress col-11 bar-height">
+                      <div class="progress-bar" role="progressbar" style="width: 72%" aria-valuenow="72" aria-valuemin="0" aria-valuemax="100"></div>
+                  
+                  </div>
+
+                  <span>72K</span>
+
+                </div>
+
+                <h5>San Francisco</h5>
+
+                <div class="d-flex align-items-center gap-3">
+
+                  <div class="progress col-11 bar-height">
+                      <div class="progress-bar" role="progressbar" style="width: 39%" aria-valuenow="39" aria-valuemin="0" aria-valuemax="100"></div>
+                  
+                  </div>
+
+                  <span>39K</span>
+
+                </div>
+
+                <h5>Sydney</h5>
+
+                <div class="d-flex align-items-center gap-3">
+
+                  <div class="progress col-11 bar-height">
+                      <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                  
+                  </div>
+
+                  <span>25K</span>
+
+                </div>
+
+                <h5>Singapore</h5>
+
+                <div class="d-flex align-items-center gap-3">
+
+                  <div class="progress col-11 bar-height">
+                      <div class="progress-bar" role="progressbar" style="width: 61%" aria-valuenow="61" aria-valuemin="0" aria-valuemax="100"></div>
+                  
+                  </div>
+
+                  <span>61K</span>
+
+                </div>
+
+                
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- Fifth section -->
+      <div class="fifth-section left-margin mb-4">
+
+        <div class="row gap-4">
+
+          <div class="col-6 cards p-2">
+
+            <div class="p-3 d-flex align-items-center justify-content-between">
+
+              <h4>TOP SELLING PRODUCTS</h4>
+
+              <div class="btn export-btn d-flex gap-3 align-items-center">
+                <span>Export</span>
+                <i class="fa-solid fa-download"></i>
+              </div>
+
+            </div>
+
+            <div class="pt-0 p-4">
+
+              <table style="width: 100%;">
+
+                <tr>
+
+                  <td>
+                    <h5>ASOS Ridley High Waist</h5>
+                    <span>07 April 2018</span>
+                  </td>
+
+                  <td>
+                    <h5>$79.49</h5>
+                    <span>Price</span>
+                  </td>
+
+                  <td>
+                    <h5>82</h5>
+                    <span>Quantity</span>
+                  </td>
+
+                  <td>
+                    <h5>$6,518.18</h5>
+                    <span>Amount</span>
+                  </td>
+
+
+
+                </tr>
+
+
+                <tr>
+
+                  <td>
+                    <h5>Marco Lightweight Shirt</h5>
+                    <span>25 March 2018</span>
+                  </td>
+
+                  <td>
+                    <h5>$128.50</h5>
+                    <span>Price</span>
+                  </td>
+
+                  <td>
+                    <h5>37</h5>
+                    <span>Quantity</span>
+                  </td>
+
+                  <td>
+                    <h5>$4,754.50</h5>
+                    <span>Amount</span>
+                  </td>
+
+
+
+                </tr>
+
+                <tr>
+
+                  <td>
+                    <h5>Half Sleeve Shirt</h5>
+                    <span>17 March 2018</span>
+                  </td>
+
+                  <td>
+                    <h5>$39.99</h5>
+                    <span>Price</span>
+                  </td>
+
+                  <td>
+                    <h5>64</h5>
+                    <span>Quantity</span>
+                  </td>
+
+                  <td>
+                    <h5>$2,559.36</h5>
+                    <span>Amount</span>
+                  </td>
+
+
+
+                </tr>
+
+                <tr>
+
+                  <td>
+                    <h5>Lightweight Jacket</h5>
+                    <span>12 March 2018</span>
+                  </td>
+
+                  <td>
+                    <h5>$20.00</h5>
+                    <span>Price</span>
+                  </td>
+
+                  <td>
+                    <h5>184</h5>
+                    <span>Quantity</span>
+                  </td>
+
+                  <td>
+                    <h5>$3,680.00</h5>
+                    <span>Amount</span>
+                  </td>
+
+
+
+                </tr>
+
+                <tr>
+
+                  <td>
+                    <h5>Marco Shoes</h5>
+                    <span>05 March 2018</span>
+                  </td>
+
+                  <td>
+                    <h5>$28.49</h5>
+                    <span>Price</span>
+                  </td>
+
+                  <td>
+                    <h5>69</h5>
+                    <span>Quantity</span>
+                  </td>
+
+                  <td>
+                    <h5>$1,965.81</h5>
+                    <span>Amount</span>
+                  </td>
+
+
+
+                </tr>
+
+              </table>
+
+
+
+            </div>
+
+          </div>
+
+          <div class="col cards p-2  fifth-second">
+
+            <div class="py-3 d-flex justify-content-between align-items-center">
+              <h4>TOTAL SALES</h4>
+              <i class="fa-solid fa-ellipsis-vertical vertical-bars"></i>
+            </div>
+
+            <div id="chart-pie">
+
+            </div>
+
+            <div>
+
+              <p class="pie-info d-flex justify-content-between pb-2">
+                <span class="pie-before">Direct</span>
+                <span>$300.56</span>
+              </p>
+
+               <p class="pie-info d-flex justify-content-between pb-2">
+                <span class="pie-before red-sq">Affiliate</span>
+                <span>$135.18</span>
+              </p>
+
+               <p class="pie-info d-flex justify-content-between pb-2">
+                <span class="pie-before green-sq">Sponsored</span>
+                <span>$48.96</span>
+              </p>
+
+               <p class="pie-info d-flex justify-content-between pb-2">
+                <span class="pie-before yellow-sq">E-mail</span>
+                <span>$154.02</span>
+              </p>
+
+
+
+            </div>
+
+          </div>
+
+          <div class="col cards p-2 overflow-auto last-card">
+
+            <div class="p-3 d-flex justify-content-between align-items-center">
+              <h4>RECENT ACTIVITY</h4>
+              <i class="fa-solid fa-ellipsis-vertical vertical-bars"></i>
+            </div>
+
+            <div class="d-flex gap-3 recent-card ps-3">
+
+              <div class="last-card-icon d-flex align-items-center justify-content-center mt-1">
+                <i class="fa-solid fa-arrow-up-from-bracket"></i>
+              </div>
+
+              <div class="last-card-text">
+                <span>You sold an item</span>
+                <p>Paul Burgess just purchased “Hyper - Admin Dashboard”!</p>
+                <span id="duration-time">5 minutes ago</span>
+              </div>
+
+
+            </div>
+
+
+            <div class="d-flex gap-3 recent-card ps-3">
+
+              <div class="last-card-icon violet d-flex align-items-center justify-content-center mt-1">
+                <i class="fa-solid fa-plane"></i>
+              </div>
+
+              <div class="last-card-text">
+                <span id="indigo">Product on the Bootstrap Market</span>
+                <p>Dave Gamache added <b>Admin Dashboard</b></p>
+                <span id="duration-time">30 minutes ago</span>
+              </div>
+
+
+            </div>
+
+            <div class="d-flex gap-3 recent-card ps-3">
+
+              <div class="last-card-icon d-flex align-items-center justify-content-center mt-1">
+                <i class="fa-solid fa-microphone"></i>
+              </div>
+
+              <div class="last-card-text">
+                <span>Robert Delaney</span>
+                <p>Send you message <b>"Are you there?"</b></p>
+                <span id="duration-time">2 hours ago</span>
+              </div>
+
+
+            </div>
+
+            <div class="d-flex gap-3 recent-card ps-3">
+
+              <div class="last-card-icon violet d-flex align-items-center justify-content-center mt-1">
+                <i class="fa-solid fa-arrow-up-from-bracket"></i>
+              </div>
+
+              <div class="last-card-text">
+                <span id="indigo">Audrey Tobey</span>
+                <p>Uploadede a photo <b>"Error.jpg"</b></p>
+                <span id="duration-time">14 hours ago</span>
+              </div>
+
+
+            </div>
+
+            <div class="d-flex gap-3 recent-card ps-3">
+
+              <div class="last-card-icon d-flex align-items-center justify-content-center mt-1">
+                <i class="fa-solid fa-arrow-up-from-bracket"></i>
+              </div>
+
+              <div class="last-card-text">
+                <span>You sold an item</span>
+                <p>Paul Burgess just purchased “Hyper - Admin Dashboard”!</p>
+                <span id="duration-time">16 hours ago</span>
+              </div>
+
+
+            </div>
+
+            <div class="d-flex gap-3 recent-card ps-3">
+
+              <div class="last-card-icon violet d-flex align-items-center justify-content-center mt-1">
+                <i class="fa-solid fa-plane"></i>
+              </div>
+
+              <div class="last-card-text">
+                <span id="indigo">Product on the Bootstrap Market</span>
+                <p>Dave Gamache added <b>Admin Dashboard</b></p>
+                <span id="duration-time">22 hours ago</span>
+              </div>
+
+
+            </div>
+
+            <div class="d-flex gap-3 recent-card last-item ps-3">
+
+              <div class="last-card-icon d-flex align-items-center justify-content-center mt-1">
+                <i class="fa-solid fa-microphone"></i>
+              </div>
+
+              <div class="last-card-text">
+                <span>Robert Delaney</span>
+                <p>Send you message <b>"Are you there?"</b></p>
+                <span id="duration-time">2 days ago</span>
+              </div>
+
+
+            </div>
+
+
+          </div>
+
+
+
+        </div>
+
+      </div>
+
+      <!-- Footer -->
+      <footer class="d-flex final-foot left-margin justify-content-between py-3 border-top">
+
+        <div>
+          <span>2025 © Hyper - Coderthemes.com</span>
+        </div>
+
+        <div class="d-flex gap-4 footer-links">
+          <span>About</span>
+          <span>Support</span>
+          <span>Contact</span>
+        </div>
+
+      </footer>
+
+    </div>
+
+    <!--HTML code ends here  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+      crossorigin="anonymous"
+    ></script>
+
+   <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+
+   <script src="https://cdn.jsdelivr.net/npm/jsvectormap"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/jsvectormap/dist/maps/world.js"></script>
+
+
+    <script src="./script.js"></script>
+
+  </body>
+</html>

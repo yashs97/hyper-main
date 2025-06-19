@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+     <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous"/>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"/>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"/>
+
+    <link rel="stylesheet" href="login.css">
+
+</head>
+<body class="position-relative">
+    <!-- HTML Code starts here -->
+    <div class="position-absolute start-0 end-0 start-0 bottom-0 w-100 h-100 svg-main">
+        
+       <svg href='./images/svg-bg.svg' width='100%' height='100%' viewBox='0 0 800 800'>
+            <g fill-opacity='0.22'>
+                <circle style="fill: rgba(114, 124, 245, 0.15);" cx='400' cy='400' r='600' />
+                <circle style="fill: rgba(114, 124, 245, 0.2);" cx='400' cy='400' r='500' />
+                <circle style="fill: rgba(114, 124, 245, 0.3);" cx='400' cy='400' r='300' />
+                <circle style="fill: rgba(114, 124, 245, 0.4);" cx='400' cy='400' r='200' />
+                <circle style="fill: rgba(114, 124, 245, 0.5);" cx='400' cy='400' r='100' />
+            </g>
+        </svg>
+
+    </div>
+
+    <div class="container main-cont">
+
+        <div class="row justify-content-center register-form">
+
+            <div class="col-4 card px-0">
+
+                <div class="d-flex justify-content-center p-4 logo-background">
+                    <img src="./images/logo.png" alt="">
+                </div>
+
+                <div class="d-flex flex-column align-items-center my-4">
+                    <h4>Sign In</h4>
+                    <p class="text-center">Enter your email address and password <br> to access admin panel.</p>
+                </div>
+
+                <div class="px-5">
+                    <form action="#" class="d-flex flex-column">
+
+                        <label for="" class="mb-1">Email Address</label>
+                        <input type="text" placeholder="Enter your email" class="mb-3 rounded-1 p-2"> 
+
+            
+
+                        <div class="position-relative d-flex flex-column">
+
+                            <div class="d-flex justify-content-between">
+                                <label for="" class="mb-1">Password</label> 
+                                <span class="forgot-pass">Forgot your password?</span>
+                            </div>
+                            <input type="password" placeholder="Enter your password" class="mb-3 rounded-1 p-2"> 
+
+                            <i class="fa-regular fa-eye position-absolute eye-btn btn rounded-0"></i>
+                        </div>
+
+                        <div class="d-flex align-items-center mb-4 gap-2">
+                            <input type="checkbox" class="check-box">
+                            <label for="" class="mb-0 acceptance">Remember me</label> 
+                        </div>
+
+                        <button class="btn rounded-1 mb-5 mx-auto">Log In</button>
+
+                    </form>
+                </div>
+
+
+            </div>
+
+
+            <div class="d-flex flex-column gap-4 align-items-center">
+                <p class="pt-3">Don't have an account? <span class="sign-up"><a href="./register.html">Sign Up</a></span></p>
+                <span class="trademark">2018 - 2025 © Hyper - Coderthemes.com</span>
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+    <!-- HTML Code ends here -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+      crossorigin="anonymous"></script>
+
+    <script src="./login.js"></script>
+
+</body>
+</html>

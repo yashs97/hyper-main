@@ -1,0 +1,117 @@
+
+body{
+    font-family: Nunito;
+}
+
+
+.register-form{
+    padding: 72px 0;
+    /* width: 415px; */
+}
+
+.register-form input{
+    border: 1px solid #dee2e6;
+}
+
+.register-form button{
+    background-color: #727cf5;
+    color: white;
+    display: block !important;
+    font-size: 14.5px;
+}
+
+.register-form button:hover{
+    background-color: #6973e3;
+    color: white;
+}
+
+.logo-background{
+    background-color: #727cf5;
+}
+
+.register-form h4{
+    font-size: 18px;
+    color: #6c757d;
+    font-weight: 700;
+}
+
+.register-form p{
+    font-size: 14.5px;
+    color: #8a969c;
+}
+
+.register-form label{
+    color: #6c757d;
+    font-size: 14.5px;
+    
+}
+
+.acceptance span{
+    color: #8a969c;
+}
+
+.eye-btn{
+    border: 1px solid #dee2e6;
+    background-color: #f6f7fb;
+    right: 0;
+    top: 26px;
+    padding: 12px;
+}
+
+.eye-btn:hover{
+    cursor: pointer;
+    background-color: #f6f7fb;
+
+}
+
+input[type=checkbox] {
+  accent-color: #727cf5;
+}
+
+.forgot-pass{
+    color: #8a969c;
+    font-size: 12px;
+}
+
+input:focus {
+  outline: none;
+  /* color: red; */
+  /* border: 1px solid red; */
+}
+
+.main-cont{
+    height: 100vh;
+}
+
+.card{
+    border: none;
+}
+
+p{
+color: rgb(114, 124, 245);
+}
+
+.sign-up{
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.svg-main{
+    z-index: -4;
+}
+
+a{
+    text-decoration: none;
+    color: #6c757d;
+}
+
+.trademark{
+    color: rgba(108, 117, 125, 0.75);
+    font-size: 14.5px;
+}
+
+
+
+
+
+
